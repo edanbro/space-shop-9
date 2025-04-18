@@ -23,6 +23,9 @@ XRToolsRumbleManager="*res://addons/godot-xr-tools/rumble/rumble_manager.gd"
 
 [display]
 
+window/size/viewport_width=1920
+window/size/viewport_height=1080
+window/size/mode=3
 window/vsync/vsync_mode=0
 window/ios/allow_high_refresh_rate=false
 

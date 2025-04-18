@@ -1,4 +1,4 @@
-[gd_scene load_steps=97 format=3 uid="uid://dl4xsihb012bd"]
+[gd_scene load_steps=90 format=3 uid="uid://dl4xsihb012bd"]
 
 [ext_resource type="PackedScene" uid="uid://clc5dre31iskm" path="res://addons/godot-xr-tools/xr/start_xr.tscn" id="1_sugp2"]
 [ext_resource type="Texture2D" uid="uid://ckuubbkp2bqha" path="res://assets/models/EarthinSpace.hdr" id="1_trceg"]
@@ -7,6 +7,7 @@
 [ext_resource type="Texture2D" uid="uid://cc4iuof0byryc" path="res://assets/models/Poliigon_MetalPaintedMatte_7037_BaseColor.jpg" id="4_jbj1t"]
 [ext_resource type="PackedScene" uid="uid://d4a45n305pdru" path="res://assets/salesItems/fbx.glb" id="4_jyhfs"]
 [ext_resource type="PackedScene" uid="uid://dgfl25esqlois" path="res://assets/models/VR‑ready_architectu_0417101746_texture.glb" id="5_tbgi4"]
+[ext_resource type="PackedScene" uid="uid://dpe1me808etpc" path="res://assets/items/Corn Flakes.glb" id="6_nvyfr"]
 [ext_resource type="Texture2D" uid="uid://4xdqqokf4h7e" path="res://assets/models/SurfaceofTheMoon_lroc_color_poles_4k.png" id="6_tipki"]
 [ext_resource type="PackedScene" uid="uid://bk4ujuhc7u7pf" path="res://assets/models/welcome_3d_text_logo.glb" id="7_85g3d"]
 [ext_resource type="PackedScene" uid="uid://cwsn7v1oeqvld" path="res://assets/models/quillbot_flight_poster.glb" id="8_choun"]
@@ -16,8 +17,6 @@
 [ext_resource type="Texture2D" uid="uid://bxn5nyp5sohtt" path="res://assets/models/Poliigon_StoneQuartzite_8060_BaseColor.jpg" id="9_y6deb"]
 [ext_resource type="PackedScene" uid="uid://qac3bpfjnmtt" path="res://assets/props/Gas Pump.glb" id="10_eb6dy"]
 [ext_resource type="PackedScene" uid="uid://brfg0sl1nxio8" path="res://assets/salesItems/card_reader.glb" id="10_nvyfr"]
-[ext_resource type="Script" uid="uid://t5nctrb2yfph" path="res://addons/godot-xr-tools/objects/pickable.gd" id="11_2f3dj"]
-[ext_resource type="PackedScene" uid="uid://bfd84tesxdinv" path="res://assets/items/Scooby-Doo Cereal.glb" id="11_2wyq8"]
 [ext_resource type="PackedScene" uid="uid://wlw2lpp6dffg" path="res://assets/models/Asteroid.glb" id="11_trceg"]
 [ext_resource type="PackedScene" uid="uid://bgt34j8evtroa" path="res://assets/salesItems/BMO(Robot Cashier).glb" id="11_ty1g6"]
 [ext_resource type="PackedScene" uid="uid://cmdipcp5wut84" path="res://assets/salesItems/Shop Fridge.glb" id="12_j2jfr"]
@@ -33,17 +32,18 @@
 [ext_resource type="PackedScene" uid="uid://crehgdbnceq1x" path="res://assets/props/Sci-Fi Crate.glb" id="21_2f3dj"]
 [ext_resource type="PackedScene" uid="uid://c3s3rlwvjackt" path="res://assets/props/Sci-Fi Barrel.glb" id="22_yq6so"]
 [ext_resource type="PackedScene" uid="uid://cej3tmdf63yii" path="res://assets/props/Propane Tank.glb" id="23_fv21b"]
+[ext_resource type="PackedScene" uid="uid://b4km2y0kjva2d" path="res://assets/items/Astronaut Food.glb" id="24_txyw0"]
+[ext_resource type="PackedScene" uid="uid://bagef4phfkbjv" path="res://assets/items/Coke.glb" id="24_vc5cj"]
 [ext_resource type="PackedScene" uid="uid://ceu7n45325lxc" path="res://assets/models/lunar1.glb" id="25_dnhof"]
+[ext_resource type="PackedScene" uid="uid://dk6lv5o72bpa7" path="res://assets/items/low_poly_stylized_game_items_poison.glb" id="25_vc5cj"]
 [ext_resource type="PackedScene" uid="uid://bc5gq3d022bud" path="res://assets/models/lunar2.glb" id="26_1v6qk"]
-[ext_resource type="Texture2D" uid="uid://rar7lx41bd47" path="res://assets/items/Heineken_Heineken - Label.jpg" id="26_fv21b"]
 [ext_resource type="PackedScene" uid="uid://y6mqcy61tvt0" path="res://assets/models/lunar3.glb" id="27_augu2"]
-[ext_resource type="ArrayMesh" uid="uid://bnomgc1quya6e" path="res://assets/items/bottle.obj" id="27_tel4y"]
-[ext_resource type="PackedScene" uid="uid://sqw6nwxvnjfk" path="res://assets/items/Packaged Salmon.glb" id="28_qkpxi"]
 [ext_resource type="PackedScene" uid="uid://cac6eiuain0sd" path="res://assets/models/lunarRover.glb" id="28_tm6hj"]
 [ext_resource type="PackedScene" uid="uid://5sx25xqqt3dq" path="res://assets/props/anti-theft_gate.glb" id="41_kf5aa"]
 [ext_resource type="PackedScene" uid="uid://cyhgwef20wqtm" path="res://assets/props/planet_neon_sign__neon_sign_for_room (1).glb" id="42_t5ykj"]
 [ext_resource type="PackedScene" uid="uid://diwdo82xqd5ej" path="res://assets/props/sat03_space_capsule.glb" id="43_e755i"]
 [ext_resource type="PackedScene" uid="uid://ccuwa35hs3aoi" path="res://assets/props/small_neon_sign..glb" id="45_od4ux"]
+[ext_resource type="PackedScene" uid="uid://sqw6nwxvnjfk" path="res://assets/items/Packaged Salmon.glb" id="45_txyw0"]
 [ext_resource type="PackedScene" uid="uid://bbfvgivp8gssg" path="res://assets/props/stars_desk_decor.glb" id="46_xhfw6"]
 [ext_resource type="PackedScene" uid="uid://dq3de17ecxipq" path="res://assets/props/rusted_antennas.glb" id="47_1epgm"]
 
@@ -74,8 +74,11 @@ size = Vector3(1.98474, 1, 1.98291)
 
 [sub_resource type="BoxMesh" id="BoxMesh_eb6dy"]
 
-[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_trceg"]
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_ty1g6"]
 points = PackedVector3Array(0.5, 0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, -0.5, 0.5, 0.5, -0.5, -0.5, -0.5, 0.5, -0.5, -0.5, -0.5, 0.5, -0.5, -0.5, -0.5)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_chjal"]
+size = Vector3(0.166382, 0.449158, 0.322235)
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_tbgi4"]
 size = Vector3(0.495972, 1.5694, 0.374634)
@@ -116,27 +119,6 @@ albedo_texture = ExtResource("9_y6deb")
 albedo_texture = ExtResource("9_y6deb")
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_c6pm6"]
-
-[sub_resource type="BoxMesh" id="BoxMesh_vxglm"]
-
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_yq6so"]
-transparency = 1
-albedo_color = Color(1, 1, 1, 0)
-
-[sub_resource type="BoxShape3D" id="BoxShape3D_vxglm"]
-
-[sub_resource type="BoxMesh" id="BoxMesh_2f3dj"]
-
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fv21b"]
-transparency = 1
-albedo_color = Color(1, 1, 1, 0)
-
-[sub_resource type="BoxShape3D" id="BoxShape3D_tel4y"]
-
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fuf3a"]
-albedo_texture = ExtResource("26_fv21b")
-
-[sub_resource type="BoxShape3D" id="BoxShape3D_pibwh"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_yc10j"]
 albedo_texture = ExtResource("4_jbj1t")
@@ -231,15 +213,28 @@ shape = SubResource("BoxShape3D_85g3d")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -8.31757)
 
 [node name="PickableObject" parent="." instance=ExtResource("3_tbgi4")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 0, -10.0351)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 0.103841, -9.66202)
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="PickableObject"]
 transform = Transform3D(0.01, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 0.0889784, 0.574572, 0.44988)
 mesh = SubResource("BoxMesh_eb6dy")
 
-[node name="CollisionShape3D2" type="CollisionShape3D" parent="PickableObject"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.38779, 0.370002)
-shape = SubResource("ConvexPolygonShape3D_trceg")
+[node name="CollisionShape3D3" type="CollisionShape3D" parent="PickableObject"]
+transform = Transform3D(0.7, 0, 0, 0, 0.7, 0, 0, 0, 0.7, 0.0889784, 0.574572, 0.44988)
+shape = SubResource("ConvexPolygonShape3D_ty1g6")
+
+[node name="cereal" parent="." instance=ExtResource("3_tbgi4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.24651, 1.15095, 5.34588)
+
+[node name="Corn Flakes" parent="cereal" instance=ExtResource("6_nvyfr")]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="cereal"]
+transform = Transform3D(0.01, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 0.00592804, 0.0758916, 0.013011)
+mesh = SubResource("BoxMesh_eb6dy")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="cereal"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00323486, 0.153717, 0.0145416)
+shape = SubResource("BoxShape3D_chjal")
 
 [node name="StaticBody3D2" type="StaticBody3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.26258, -0.0135857, -7.4926)
@@ -347,7 +342,7 @@ transform = Transform3D(-0.333316, 0, -0.00334512, 0, 0.333333, 0, 0.00334512, 0
 transform = Transform3D(-0.321093, 0, -0.0894998, 0, 0.333333, 0, 0.0894998, 0, -0.321093, -1.3105, -0.475, 2.94109)
 
 [node name="Shopping Basket" parent="BoxShopLeft" instance=ExtResource("16_0loja")]
-transform = Transform3D(0.333316, 0, 0.00334515, 0, 0.333333, 0, -0.00334515, 0, 0.333316, 0.0908875, -0.47486, 1.02599)
+transform = Transform3D(0.333316, 0, 0.00334515, 0, 0.333333, 0, -0.00334515, 0, 0.333316, -0.270147, -0.47486, 1.0528)
 
 [node name="Shelves" parent="BoxShopLeft" instance=ExtResource("17_ids8r")]
 transform = Transform3D(0.333316, 0, 0.00334515, 0, 0.333333, 0, -0.00334515, 0, 0.333316, -0.259155, -0.47486, -0.637244)
@@ -427,49 +422,6 @@ skeleton = NodePath("../../BoxShopRight")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="BoxShopMiddle/MeshInstance3D4/StaticBody3D"]
 shape = SubResource("BoxShape3D_c6pm6")
-
-[node name="RigidBody3D" type="RigidBody3D" parent="BoxShopMiddle"]
-transform = Transform3D(-4.88762e-08, 0, 0.3, 0, 0.3, 0, -0.3, 0, -4.88762e-08, 0.639, -0.13, 0.119)
-script = ExtResource("11_2f3dj")
-
-[node name="Scooby-Doo Cereal" parent="BoxShopMiddle/RigidBody3D" instance=ExtResource("11_2wyq8")]
-transform = Transform3D(-4.8568e-08, 0, -1.11111, 0, 0.8547, 0, 1.11111, 0, -4.8568e-08, 0.39782, -0.0011974, -0.00036025)
-
-[node name="MeshInstance3D" type="MeshInstance3D" parent="BoxShopMiddle/RigidBody3D/Scooby-Doo Cereal"]
-transform = Transform3D(0.08, 0, 0, 0, 0.28, 0, 6.66134e-16, 0, 0.224, 0, 0.2, 0)
-mesh = SubResource("BoxMesh_vxglm")
-surface_material_override/0 = SubResource("StandardMaterial3D_yq6so")
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="BoxShopMiddle/RigidBody3D"]
-transform = Transform3D(0.4, 0, -7.10543e-15, 0, 0.4, 0, 7.10543e-15, 0, 0.4, 0.5, 0.1, 0)
-shape = SubResource("BoxShape3D_vxglm")
-
-[node name="Donot" type="RigidBody3D" parent="BoxShopMiddle"]
-transform = Transform3D(-3.57615e-08, 0, 0.333333, 0, 0.333333, 0, -0.333333, 0, -3.57615e-08, 0.15, -0.15, -0.75)
-script = ExtResource("11_2f3dj")
-
-[node name="Donut_with_chocolate" parent="BoxShopMiddle/Donot" instance=ExtResource("13_yq6so")]
-
-[node name="MeshInstance3D" type="MeshInstance3D" parent="BoxShopMiddle/Donot/Donut_with_chocolate"]
-transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 0, 0, 0)
-mesh = SubResource("BoxMesh_2f3dj")
-surface_material_override/0 = SubResource("StandardMaterial3D_fv21b")
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="BoxShopMiddle/Donot"]
-transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 0, 0, 0)
-shape = SubResource("BoxShape3D_tel4y")
-
-[node name="Packaged Salmon2" parent="BoxShopMiddle" instance=ExtResource("28_qkpxi")]
-transform = Transform3D(-3.57614e-08, 0, 0.333333, 0, 0.333333, 0, -0.333333, 0, -3.57614e-08, 0.705775, -0.128867, -0.14732)
-
-[node name="Bottle" type="MeshInstance3D" parent="BoxShopMiddle"]
-transform = Transform3D(-3.57614e-09, 0, 0.0333333, 0, 0.0333333, 0, -0.0333333, 0, -3.57614e-09, 0.739108, -0.1122, 0.119346)
-material_override = SubResource("StandardMaterial3D_fuf3a")
-mesh = ExtResource("27_tel4y")
-skeleton = NodePath("../..")
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="BoxShopMiddle/Bottle"]
-shape = SubResource("BoxShape3D_pibwh")
 
 [node name="BoxShopRight" parent="." instance=ExtResource("5_tbgi4")]
 transform = Transform3D(-0.00979088, 0, 2.99998, 0, 3, 0, -2.99998, 0, -0.00979088, -4.37882, 1.43786, 1.34848)
@@ -711,6 +663,92 @@ transform = Transform3D(5, 0, 4.26326e-14, 0, 5, 0, -4.26326e-14, 0, 5, 1, 3, 7)
 
 [node name="Antenna" parent="Outside props" instance=ExtResource("47_1epgm")]
 transform = Transform3D(-14.1421, 0, -14.1421, 0, 20, 0, 14.1421, 0, -14.1421, 3, 3, -2)
+
+[node name="cola" parent="." instance=ExtResource("3_tbgi4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.24651, 1.1369, 5.85457)
+
+[node name="Coke" parent="cola" instance=ExtResource("24_vc5cj")]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="cola"]
+transform = Transform3D(0.001, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 0.00592804, 0.0758916, 0.013011)
+mesh = SubResource("BoxMesh_eb6dy")
+skeleton = NodePath("../../cereal")
+
+[node name="CollisionShape3D2222" type="CollisionShape3D" parent="cola"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00323486, 0.153717, 0.0145416)
+shape = SubResource("BoxShape3D_chjal")
+
+[node name="food" parent="." instance=ExtResource("3_tbgi4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.24651, 1.1369, 4.91785)
+
+[node name="Astronaut Food" parent="food" instance=ExtResource("24_txyw0")]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="food"]
+transform = Transform3D(0.001, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 0.00592804, 0.0758916, 0.013011)
+mesh = SubResource("BoxMesh_eb6dy")
+skeleton = NodePath("../../cereal")
+
+[node name="CollisionShape3D2222" type="CollisionShape3D" parent="food"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00323486, 0.153717, 0.0145416)
+shape = SubResource("BoxShape3D_chjal")
+
+[node name="food2" parent="." instance=ExtResource("3_tbgi4")]
+transform = Transform3D(-0.104685, 0, 0.994505, 0, 1, 0, -0.994505, 0, -0.104685, -0.483378, 1.07256, 7.59127)
+
+[node name="Astronaut Food" parent="food2" instance=ExtResource("24_txyw0")]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="food2"]
+transform = Transform3D(0.001, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 0.00592804, 0.0758916, 0.013011)
+mesh = SubResource("BoxMesh_eb6dy")
+skeleton = NodePath("../../cereal")
+
+[node name="CollisionShape3D2222" type="CollisionShape3D" parent="food2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00323486, 0.153717, 0.0145416)
+shape = SubResource("BoxShape3D_chjal")
+
+[node name="food3" parent="." instance=ExtResource("3_tbgi4")]
+transform = Transform3D(-0.104685, 0, 0.994505, 0, 1, 0, -0.994505, 0, -0.104685, -0.0391402, 1.07256, 7.59127)
+
+[node name="Donut_with_chocolate" parent="food3" instance=ExtResource("13_yq6so")]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="food3"]
+transform = Transform3D(0.001, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 0.00592804, 0.0758916, 0.013011)
+mesh = SubResource("BoxMesh_eb6dy")
+skeleton = NodePath("../../cereal")
+
+[node name="CollisionShape3D2222" type="CollisionShape3D" parent="food3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00323486, 0.153717, 0.0145416)
+shape = SubResource("BoxShape3D_chjal")
+
+[node name="food4" parent="." instance=ExtResource("3_tbgi4")]
+transform = Transform3D(-0.104685, 0, 0.994505, 0, 1, 0, -0.994505, 0, -0.104685, 0.363791, 1.07256, 7.59127)
+
+[node name="Packaged Salmon2" parent="food4" instance=ExtResource("45_txyw0")]
+transform = Transform3D(-0.0602994, 0, -0.99818, 0, 1, 0, 0.99818, 0, -0.0602994, 0, 0, 0)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="food4"]
+transform = Transform3D(-0.000732887, 0, 0.0068035, 0, 0.01, 0, -0.00068035, 0, -0.00732887, 0.00592852, 0.0758916, 0.013011)
+mesh = SubResource("BoxMesh_eb6dy")
+skeleton = NodePath("../../cereal")
+
+[node name="CollisionShape3D2222" type="CollisionShape3D" parent="food4"]
+transform = Transform3D(0.05441, 0, 0.998519, 0, 1, 0, -0.998519, 0, 0.05441, 0.00323534, 0.153717, 0.0145416)
+shape = SubResource("BoxShape3D_chjal")
+
+[node name="food5" parent="." instance=ExtResource("3_tbgi4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.37323, 1.1369, 5.79542)
+
+[node name="Sketchfab_Scene" parent="food5" instance=ExtResource("25_vc5cj")]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 0, 0, 0)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="food5"]
+transform = Transform3D(0.001, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 0.00592804, 0.0758916, 0.013011)
+mesh = SubResource("BoxMesh_eb6dy")
+skeleton = NodePath("../../cereal")
+
+[node name="CollisionShape3D2222" type="CollisionShape3D" parent="food5"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00323486, 0.153717, 0.0145416)
+shape = SubResource("BoxShape3D_chjal")
 
 [editable path="BoxShopLeft"]
 [editable path="BoxShopMiddle"]
