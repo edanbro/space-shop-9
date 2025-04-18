@@ -1,0 +1,38 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://c10wsxi5d2sqq"
+path.s3tc="res://.godot/imported/BMO(Robot Cashier)_face texture.jpg-d0b3269c8927e1e35dfdf316f4d92e50.s3tc.ctex"
+metadata={
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
+}
+generator_parameters={
+"md5": "08e61369a63e8fcaed9636cd9ead7886"
+}
+
+[deps]
+
+source_file="res://assets/BMO(Robot Cashier)_face texture.jpg"
+dest_files=["res://.godot/imported/BMO(Robot Cashier)_face texture.jpg-d0b3269c8927e1e35dfdf316f4d92e50.s3tc.ctex"]
+
+[params]
+
+compress/mode=2
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=true
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=0
